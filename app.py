@@ -7,7 +7,7 @@ import pandas as pd
 st.set_page_config(page_title="AirWise", layout="wide", initial_sidebar_state="expanded")
 
 # Load the model
-model = joblib.load('model_AirWise.pkl')
+model = joblib.load('model.pkl')
 
 # Function to map numerical predictions to categorical labels
 def map_prediction(prediction):
