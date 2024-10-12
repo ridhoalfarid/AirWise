@@ -1,0 +1,44 @@
+Berdasarkan hasil percobaan selama membuat model AirWIse terjadi beberapa skeneraio modelling. Evaluasi yang digunakan untuk menilai performa model menggunakan K-Fold Cross Validation dengan k sebanyak 10.
+
+# Data yang digunakan sebanyak 4152
+
+* Tanpa Handling Outliers
+KNN -> Mean Accuracy: 0.963 dan SD Accuracy: 0.007
+SVM -> Mean Accuracy: 0.968 dan SD Accuracy: 0.007
+
+* Winsorizer
+KNN -> Mean Accuracy: 0.961 dan SD Accuracy: 0.007
+SVM -> Mean Accuracy: 0.972 dan SD Accuracy: 0.005
+
+* Box-Cox
+KNN -> Mean Accuracy: 0.949 dan SD Accuracy: 0.011
+SVM -> Mean Accuracy: 0.938 dan SD Accuracy: 0.010
+
+* Box-Cox + Winsorizer
+KNN -> Mean Accuracy: 0.957 dan SD Accuracy: 0.010
+SVM -> Mean Accuracy: 0.945 dan SD Accuracy: 0.012
+
+
+# Data yang digunakan sebanyak 5010
+
+* Tanpa Handling Outliers
+KNN -> Mean Accuracy: 0.942 dan SD Accuracy: 0.010
+SVM -> Mean Accuracy: 0.943 dan SD Accuracy: 0.010
+
+* Winsorizer
+KNN -> Mean Accuracy: 0.943 dan SD Accuracy: 0.012
+SVM -> Mean Accuracy: 0.943 dan SD Accuracy: 0.011
+
+* Box-Cox
+KNN -> Mean Accuracy: 0.927 dan SD Accuracy: 0.011
+SVM -> Mean Accuracy: 0.917 dan SD Accuracy: 0.011
+
+* Box-Cox + Winsorizer
+KNN -> Mean Accuracy: 0.932 dan SD Accuracy: 0.014
+SVM -> Mean Accuracy: 0.919 dan SD Accuracy: 0.010
+
+
+Pengujian SVM dengan Winsorizer dengan 21 data baru.
+SVM dengan dataset 4152 -> Dari 21 data berhasil memprediksi 18 data baru dengan akurat
+SVM dengan dataset 5010 -> Dari 21 data berhasil memprediksi 16 data baru dengan akurat
+
