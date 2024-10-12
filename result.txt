@@ -44,5 +44,12 @@ SVM dengan dataset 5010 -> Dari 21 data berhasil memprediksi 16 data baru dengan
 
 
 Conclusion:
-Dalam memilih model untuk deployment dengan Streamlit, saya memutuskan menggunakan dataset dengan penghapusan missing value yang berjumlah 4152 data, karena model ini menunjukkan performa yang lebih baik. Berdasarkan hasil evaluasi menggunakan K-Fold Cross Validation, model ini memiliki rata-rata akurasi lebih tinggi dan standar deviasi hasil lebih rendah dibandingkan dengan model yang menggunakan KNNImputer pada dataset 5010 data. Selain itu, menghapus missing value mengurangi risiko bias yang bisa terjadi saat mengisi nilai yang hilang. Keputusan ini didasarkan pada keandalan dan konsistensi yang lebih tinggi dalam prediksi, sehingga lebih cocok untuk digunakan dalam aplikasi nyata.
+Dalam memilih model untuk deployment dengan Streamlit, saya memutuskan menggunakan dataset dengan 
+penghapusan missing value yang berjumlah 4152 data, karena model ini menunjukkan performa yang 
+lebih baik. Berdasarkan hasil evaluasi menggunakan K-Fold Cross Validation, model ini memiliki rata-
+rata akurasi lebih tinggi dan standar deviasi hasil lebih rendah dibandingkan dengan model yang 
+menggunakan KNNImputer pada dataset 5010 data. Selain itu, menghapus missing value mengurangi 
+risiko bias yang bisa terjadi saat mengisi nilai yang hilang. Keputusan ini didasarkan pada 
+keandalan dan konsistensi yang lebih tinggi dalam prediksi, sehingga lebih cocok untuk digunakan 
+dalam aplikasi nyata.
 
